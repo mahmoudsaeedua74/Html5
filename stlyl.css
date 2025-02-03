@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#heading,
+footer section {
+    background-color: rgb(34, 31, 31);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    background-color: #ddd;
+    justify-content: center;
+}
+
+article,
+section,
+figure,
+aside {
+    margin-block: 20px;
+    padding: 20px;
+    background-color: #eee;
+
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.drag-container {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    cursor: move;
+}
+
+.drop-zone {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed green;
+    margin: 10px;
+}
+span {
+    display: none;
+    border: solid green 1px;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 6px;
+    background-color: #fff;
+}

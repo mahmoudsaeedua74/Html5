@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="stlyl.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- this is main content -->
+    <!-- start header -->
+    <header id="heading">
+        <h1>Html5 What's new?</h1>
+
+    </header>
+    <!-- end header -->
+    <!-- start navigation -->
+    <nav>
+        <ul>
+            <li>Home</li>
+        </ul>
+    </nav>
+    <main>
+        <p>this page about Html5</p>
+        <p>i use main and it should be about the main content of page and i should use one element</p>
+    </main>
+    <!-- end navigation -->
+    <!--start article-->
+    <article>
+        <header>
+            <h3>article #01</h3>
+            <p>about what is new</p>
+        </header>
+        <p>I use <mark>article</mark> here because it represents complete content that can be used on its own. On the
+            other hand, <mark>section</mark> is a part of a larger content structure, and it usually contains multiple
+            related sections</p>
+        <p>and that is the def between article and section </p>
+    </article>
+
+    <!--end article-->
+    <!--start section-->
+    <section>
+        <header>
+            <h3>this section about more element</h3>
+            <p>in html5 there is new element </p>
+        </header>
+        <span>menu is like ul but its ues for groups related commands and actions for users</span>
+        <menu>
+            <li>click</li>
+            <li>click</li>
+        </menu>
+
+        <dialog>
+            <p> dialog use for someting is hidden and when you click you can open it and take att open that make it open
+                in
+                first</p>
+        </dialog>
+
+    </section>
+
+    <!--end section-->
+    <!--start section-->
+
+    <figure>
+        <figcaption>this figure about Progress and Meter </figcaption>
+        <progress value="50" max="100">50%</progress>
+        <meter value="50" max="100" high="70" min="0" low="20" optimum="80"></meter>
+    </figure>
+    <!--end section-->
+    <!--start aside-->
+    <aside>
+        <p>
+            we use aside for add or somthing doesnt have rel with the page
+        </p>
+    </aside>
+    <!--end aside-->
+
+    <section>
+        <pre> this is 
+               prev   act use for keep the code like you 
+
+               wright its keep the space 
+        </pre>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <wbr> Tempora cum beatae nam
+            <wbr>aliquid laudantium voluptatibus ratione exercitationem
+        </p>
+        <p>use time for get real time</p>
+        <time datetime="2/3/2025">2/3/2025</time>
+
+    </section>
+    <section>
+        <p>this is about datalist It allows users to type in an input field while providing suggestions from a list of
+            options</p>
+        <input type="text" list="list">
+        <datalist id="list">
+            <option value="html3">
+            <option value="html4">
+            <option value="html5">
+        </datalist>
+
+    </section>
+    <section>
+        <p>thie about audio video</p>
+        <audio preload="metadata" controls loop autoplay>
+            <source src="mp3" type="mp3">
+        </audio>
+        <video src="mp4" controls loop autoplay muted preload="metadata">
+            <track src="translt.vtt" kind="subtitles" srclang="imag.webp">
+            </track>
+        </video>
+    </section>
+
+    <section>
+        <form action="">
+            <label for="color">Choose a color:</label>
+            <input type="color" id="color">
+            <label for="range">Select a range:</label>
+            <input type="range" id="range" min="1" max="100">
+            <label for="search">Search:</label>
+            <input type="search" id="search" placeholder="Search something...">
+            <label for="number">Enter a number (1-10):</label>
+            <input type="number" id="number" name="number" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="1234567890" required pattern="[0-9]{10}">
+            <label for="url">Website:</label>
+            <input type="url" id="url" placeholder="https://example.com">
+            <label for="time">Choose a time:</label>
+            <input type="time" id="time">
+            <label for="text">Text:</label>
+            <input type="text" id="text" placeholder="Enter text">
+            <label for="readonly">Read-only Input:</label>
+            <input type="text" id="readonly" value="Can't edit" readonly>
+            <label for="disabled">Disabled Input:</label>
+            <input type="text" id="disabled" value="Disabled" disabled>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!--start footer-->
+    <section>
+        <h1>HTML5 Features Test</h1>
+
+        <!-- Drag and Drop Section -->
+        <div class="drag-container">
+            <h2>Drag and Drop</h2>
+            <div id="draggableElement" class="draggable" draggable="true">
+                Drag Me
+            </div>
+        </div>
+        <div class="drop-zone" id="dropZone">
+            Drop Here
+        </div>
+
+        <!-- Clipboard Section -->
+        <div>
+            <h2>Clipboard API</h2>
+            <input type="text" id="copyText" value="Text to copy">
+            <button id="copyButton">Copy</button>
+            <button id="pasteButton">Paste</button>
+            <span id="message"></span>
+            <div id="pasteArea"></div>
+        </div>
+
+        <!-- Notifications Section -->
+        <div>
+            <h2>Notifications</h2>
+            <button id="requestPermission">Request Notification </button>
+            <button id="showNotification">Show Notification</button>
+        </div>
+        
+    </section>
+
+    <footer>
+        <section>
+            <p> copyright 2025</p>
+            <!-- address is for content -->
+            <address>
+                <span>phone:</span>
+                <span>01120</span>
+
+            </address>
+        </section>
+    </footer>
+    <!--end footer-->
+    <script src="main.js"></script>
+</body>
+
+</html>
